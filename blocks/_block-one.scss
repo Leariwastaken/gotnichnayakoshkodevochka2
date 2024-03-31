@@ -1,0 +1,69 @@
+@import "_adds.scss";
+.blockone{
+    display: grid;
+    grid-template-rows: 30vh auto;
+    grid-template-columns: repeat(3, 20%);
+    grid-column-gap: 10%;
+    justify-items: center;
+    align-content: stretch;
+    margin-left: 18%;
+    .blockone__item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10%;
+        .blockone__item1_img{
+            width: 30%
+        }
+        .blockone_item1_h{
+            @include h(1.2vw)
+        }
+        .blockone_item1_f{
+            @include ft(1vw);
+            width: 90%;
+            text-align: center;
+        }
+    }
+    .blockone__item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10%;
+        .blockone__item2_img{
+            width: 30%
+        }
+        .blockone_item2_h{
+            @include h(1.2vw)
+        }
+        .blockone_item2_f{
+            @include ft(1vw);
+            width: 80%;
+            text-align: center;
+        }
+        
+    }
+    .blockone__item3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10%;
+        .blockone__item3_img{
+            width: 30%
+        }
+        .blockone_item3_h{
+            @include h(1.2vw)
+        }
+        .blockone_item3_f{
+            @include ft(1vw);
+            width: 90%;
+            text-align: center;
+        }
+        
+    }
+    .blockone__item4{
+        grid-column: span 3;
+        .blockone__item4_img{
+            width: 100%;
+        }
+    }
+}

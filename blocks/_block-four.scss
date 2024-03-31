@@ -1,0 +1,57 @@
+@import "_adds.scss";
+.blockfour{
+    z-index: 0;
+    background-color: #F6FBFD;
+    padding: 10% 5%;
+    position: relative;
+    .blockfour__text{
+        text-align: center;
+        .blockfour__text_h{
+            @include h(3vw);
+        }
+        .blockfour__text_ft{
+            @include ft(1.2vw);
+            margin: 5% 0;
+        }   
+    }
+    .blockfour__grid{
+        display: grid;
+        grid-template-rows: 550px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin-left: 5.5%;
+        .blockfour__grid_img1{
+            align-self: flex-start;
+            width: 80%;
+            box-shadow: 1vh 1vh 1vh rgb(235, 235, 235);
+            &:hover{
+                border: 2px solid gray;
+            }
+        }
+        .blockfour__grid_img2{
+            align-self: center;
+            width: 80%;
+            box-shadow: 1vh 1vh 1vh rgb(235, 235, 235);
+            &:hover{
+                border: 2px solid gray;
+            }
+        }
+        .blockfour__grid_img3{
+            align-self: flex-end;
+            width: 80%;
+            box-shadow: 1vh 1vh 1vh rgb(235, 235, 235);
+            z-index: 1;
+            &:hover{
+                border: 2px solid gray;
+            }
+        }
+    }
+    .blockfour__bg{
+        position: absolute;
+        top: 32%;
+        left: 80%;
+        .blockfour__bg_img{
+            z-index: 0;
+        }
+    }
+}

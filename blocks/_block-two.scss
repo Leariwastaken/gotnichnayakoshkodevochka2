@@ -1,0 +1,107 @@
+@import "_adds.scss";
+
+.blocktwo {
+    .blocktwo__text {
+        margin-top: 20%;
+        text-align: center;
+
+        .blocktwo__text_h {
+            text-shadow: 2px 2px 2px gray;
+            @include h(4vw);
+        }
+
+        .blocktwo__text_ft {
+            margin-top: 3%;
+            @include ft(1.2vw);
+        }
+    }
+    .blocktwo__imgs {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .imgs__im1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 5em;
+            width: 15%;
+            .imgs__im1_img{
+                width: 30%
+            }
+            .imgs__im1_h{
+                @include h(1.5vw);
+                text-align: center;
+            }
+            .imgs__im1_ft{
+                @include ft(1vw);
+                text-align: center;
+            }
+        }
+        .imgs__im2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 5em;
+            width: 15%;
+            .imgs__im2_img{
+                width: 30%
+            }
+            .imgs__im2_h{
+                @include h(1.5vw);
+                text-align: center;
+            }
+            .imgs__im2_ft{
+                @include ft(1vw);
+                text-align: center;
+            }
+        }
+        .imgs__im3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 5em;
+            width: 15%;
+            .imgs__im3_img{
+                width: 30%
+            }
+            .imgs__im3_h{
+                @include h(1.5vw);
+                text-align: center;
+            }
+            .imgs__im3_ft{
+                @include ft(1vw);
+                text-align: center;
+            }
+        }
+        .imgs__im4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 5em;
+            width: 15%;
+            .imgs__im4_img{
+                width: 30%
+            }
+            .imgs__im4_h{
+                @include h(1.5vw);
+                text-align: center;
+            }
+            .imgs__im4_ft{
+                @include ft(1vw);
+                text-align: center;
+            }
+        }
+    }
+    .blocktwo__a{
+        color: #0056D6;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        margin-bottom: 20%;
+        &:hover{
+            color: #424242;
+        }
+    }
+}

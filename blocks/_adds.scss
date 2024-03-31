@@ -1,0 +1,38 @@
+@mixin h($fz){
+    color: #424242;
+    font-size: $fz;
+    font-weight: 800;
+}
+@mixin ft($fz){
+    color: #5B5B5B;
+    font-size: $fz;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+%but {
+    background-color: #0056D6;
+    color: #EBFDF4;
+    padding: 1vw 2.5vw;
+    border-radius: 42px;
+    font-size: 1.5vh;
+    font-weight: 400;
+    &:hover{
+        background-color: #EBFDF4;
+        color: #0056D6;
+        border: 2px solid #0056D6;
+    }
+}
+%buttr {
+    background-color: transparent;
+    color: #0056D6;
+    padding: 1vw 2.5vw;
+    border-radius: 42px;
+    font-size: 1.5vh;
+    border-color: #0056D6;
+    font-weight: 600;
+    &:hover{
+        background-color: #EBFDF4;
+        color: #0056D6;
+        border: 2px solid #0056D6;
+    }
+}
